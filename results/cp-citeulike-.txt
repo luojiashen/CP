@@ -1,0 +1,26 @@
+{
+    "data_name": "citeulike",
+    "epoches": 500,
+    "lr": 0.0005,
+    "device": "cuda:0",
+    "batch_size": 1024,
+    "num_workers": 0,
+    "data_preprocess": 0,
+    "split_rate": [
+        0.7,
+        0.1,
+        0.2
+    ],
+    "embedding_dim": 64,
+    "round_time": 1,
+    "layer_num": 3,
+    "L2_lambda": 1e-05,
+    "hidden_num": 0,
+    "personality": 13,
+    "base_model": "lightgcn",
+    "fit_loss": 1,
+    "models": "cp"
+}recall@10 mean(round 1):	0.04956503450609226
+recall@20 mean(round 1):	0.08473987775835344
+recall@30 mean(round 1):	0.11157580605496503
+hit@10 mean(round 1):	0.051030354753898506

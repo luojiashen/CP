@@ -1,0 +1,3 @@
+recall@10 in last epoch:	0.06561627751761964
+recall@20 in last epoch:	0.10822410242580585
+recall@30 in last epoch:	0.13744478825338172

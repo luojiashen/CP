@@ -1,0 +1,30 @@
+{
+    "data_name": "lastfm",
+    "epoches": 500,
+    "lr": 0.0005,
+    "device": "cuda:0",
+    "batch_size": 1024,
+    "num_workers": 0,
+    "data_preprocess": 0,
+    "split_rate": [
+        0.7,
+        0.1,
+        0.2
+    ],
+    "embedding_dim": 64,
+    "round_time": 1,
+    "layer_num": 3,
+    "L2_lambda": 1e-05,
+    "hidden_num": 2,
+    "personality": 5,
+    "base_model": "lightgcn",
+    "fit_loss": 1,
+    "models": "cp"
+}recall@10 in last epoch:	0.26810819993959534
+recall@20 in last epoch:	0.36947611497030103
+recall@30 in last epoch:	0.43551650223161853
+hit@10 in last epoch:	0.28788916815307325
+recall@10 mean(round 1):	0.27022823752474917
+recall@20 mean(round 1):	0.3698857344206182
+recall@30 mean(round 1):	0.43551650223161853
+hit@10 mean(round 1):	0.29132297743408847
